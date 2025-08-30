@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Re-cart - Online Store</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <!-- Header -->
+  <header class="main-header">
+    <div class="logo">TechBazaar</div>
+    <input type="text" class="search-box" placeholder="Search for Electornic gadgets, Mobiles, more..." />
+    <button class="search-btn">🔍</button>
+    
+    <div class="nav-icons">
+      <button>Home</button>
+      <button id="cart-btn">Cart (<span id="cart-count">0</span>)</button>
+      <button>Orders</button>
+      <button>Wishlist</button>
+      <span class="login-btn">Login</span>
+    </div>
+  </header>
+
+  <!-- Hero Banner -->
+  <section class="hero">
+    <h1>Biggest Deals of the Season!</h1>
+    <p>Upto 60% OFF on top categories</p>
+  </section>
+
+  <!-- Section Heading -->
+  <section class="section-heading">Top Deals</section>
+
+  <!-- 🔹 Product Row 1 - 5 Products -->
+  <section class="product-grid">
+     <div class="product-card" data-name="Rolex Watch" data-price="2599" data-img="images/watch.jpeg">
+      <img src="images/watch.jpeg" alt="Watch" />
+      <h3>Rolex Watch</h3>
+      <p><span class="old-price">₹3,999</span> <span class="new-price">₹2,599</span></p>
+      <p class="product-desc">Rolex Watches With Premium Design.</p>
+      <div class="quantity-box">
+        <button class="decrease-btn">−</button>
+        <span class="quantity">0</span>
+        <button class="increase-btn">+</button>
+      </div>
+      <button class="add-to-cart-btn">Add to Cart</button>
+       <button class="buy-now-btn">Buy Now</button>
+    </div>
+
+
+     <div class="product-card" data-name="Earbuds" data-price="2499" data-img="images/earbuds.jpeg">
+      <img src="images/earbuds.jpeg" alt="Easbuds" />
+      <h3>Earbuds</h3>
+      <p><span class="old-price">₹3,499</span> <span class="new-price">₹2,499</span></p>
+      <p class="product-desc">Boat earbuds With Extra Feautures.</p>
+      <div class="quantity-box">
+        <button class="decrease-btn">−</button>
+        <span class="quantity">0</span>
+        <button class="increase-btn">+</button>
+      </div>
+      <button class="add-to-cart-btn">Add to Cart</button>
+       <button class="buy-now-btn">Buy Now</button>
+    </div>
+
+     <div class="product-card" data-name="controller" data-price="799" data-img="images/controller.jpeg">
+      <img src="images/controller.jpeg" alt="Shoes" />
+      <h3>controller</h3>
+      <p><span class="old-price">₹1,999</span> <span class="new-price">₹799</span></p>
+      <p class="product-desc">Ps5 controller with Premium Design .</p>
+      <div class="quantity-box">
+        <button class="decrease-btn">−</button>
+        <span class="quantity">0</span>
+        <button class="increase-btn">+</button>
+      </div>
+      <button class="add-to-cart-btn">Add to Cart</button>
+       <button class="buy-now-btn">Buy Now</button>
+    </div>
+
+     <div class="product-card" data-name="waching" data-price="14999" data-img="images/waching machine.jpeg">
+      <img src="images/waching machine.jpeg" alt="Washing machine" />
+      <h3>Washing Machine </h3>
+      <p><span class="old-price">₹20,499</span> <span class="new-price">₹14,999</span></p>
+      <p class="product-desc">Minimal scratches, fully working.</p>
+      <div class="quantity-box">
+        <button class="decrease-btn">−</button>
+        <span class="quantity">0</span>
+        <button class="increase-btn">+</button>
+      </div>
+      <button class="add-to-cart-btn">Add to Cart</button>
+       <button class="buy-now-btn">Buy Now</button>
+    </div>
+    
+     <div class="product-card" data-name="TV" data-price="28000" data-img="images/tv.jpeg">
+      <img src="images/tv.jpeg" alt="Laptop" />
+      <h3> TV</h3>
+      <p><span class="old-price">₹45,000</span> <span class="new-price">₹28,000</span></p>
+      <p class="product-desc">i5, 8GB RAM .</p>
+      <div class="quantity-box">
+        <button class="decrease-btn">−</button>
+        <span class="quantity">0</span>
+        <button class="increase-btn">+</button>
+      </div>
+      <button class="add-to-cart-btn">Add to Cart</button>
+       <button class="buy-now-btn">Buy Now</button>
+    </div>
+    </section>
+    
+  <!-- 🔻 Product Row 2 - 2 More Products -->
+ <section class="product-grid">
+     <div class="product-card" data-name="fan"data-price="1199" data-img="images/fan.jpeg">
+      <img src="images/fan.jpeg" alt="fan" />
+      <h3>Table fan</h3>
+      <p><span class="old-price">₹2,499</span> <span class="new-price">₹1,199</span></p>
+      <p class="product-desc">Super Confort </p>
+      <div class="quantity-box">
+        <button class="decrease-btn">−</button>
+        <span class="quantity">0</span>
+        <button class="increase-btn">+</button>
+      </div>
+      <button class="add-to-cart-btn">Add to Cart</button>
+       <button class="buy-now-btn">Buy Now</button>
+    </div>
+</section>
+
+  <!-- Footer -->
+  <footer class="footer">
+    <p>© 2025 ShopSpace. All rights reserved.</p>
+  </footer>
+
+  <script src="app.js"></script>
+</body>
+</html>
+
+
